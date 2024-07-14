@@ -3,8 +3,9 @@ import React from 'react';
 
 const Media = () => {
     return (
-        <div>
-            <h1 className="mt-12 mb-4 font-bold text-xl">Photos</h1>
+        <div className='flex lg:inline gap-4'>
+          <div>
+          <h1 className="lg:mt-12 mb-4 font-bold text-xl">Photos</h1>
           <div className="grid grid-cols-2 mb-2">
             <Image
               src="/image/Rectangle 2.png"
@@ -32,8 +33,10 @@ const Media = () => {
             />
           </div>
           <p className="text-right text-[#196AA0] text-xl font-bold">More +</p>
+          </div>
 
-          <h1 className="mt-12 mb-4 font-bold text-xl">Videos</h1>
+          <div>
+          <h1 className="lg:mt-12 mb-4 font-bold text-xl">Videos</h1>
           <div className="mb-2">
             <div className="mb-4">
               <Image
@@ -65,6 +68,7 @@ const Media = () => {
             </div>
           </div>
           <p className="text-right text-[#196AA0] text-xl font-bold">More +</p>
+          </div>
         </div>
     );
 };
