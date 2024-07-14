@@ -8,7 +8,7 @@ import { BsThreeDots } from "react-icons/bs";
 const Navbar = () => {
   return (
     <div className="bg-[#1B1C1E]">
-      <div className="navbar container mx-auto h-[80px]">
+      <div className="navbar container mx-auto h-[80px] max-w-[1200px]">
         <div className="navbar flex-row-reverse">
           <div className="dropdown">
           <div className="avatar lg:hidden">

@@ -10,6 +10,7 @@ const Banner = () => {
         layout="responsive"
         width={1920}
         height={1080}
+        className="z-40"
       />
     </div>
   );
