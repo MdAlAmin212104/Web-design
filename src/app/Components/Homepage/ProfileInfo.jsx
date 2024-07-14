@@ -5,7 +5,7 @@ const ProfileInfo = () => {
     return (
         <div className='grid grid-cols-3 gap-4 relative -top-10 lg:-top-24'>
             <div className='ml-6 lg:ml-12'>
-                <Image src="/image/profile.png" alt='Profile Image' width={200} height={200}/>
+                <Image src="/profile.png" alt='Profile Image' width={200} height={200}/>
             </div>
             <div className='lg:mt-32 mt-10 relative'>
                 <h1 className='text-2xl font-semibold'>John Doe</h1>

@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="dropdown">
           <div className="avatar lg:hidden">
             <div className="ring-primary ring-offset-base-100 rounded-full">
-              <Image src="/image/profile.png" width={40} height={40} alt="avatar" />
+              <Image src="/profile.png" width={40} height={40} alt="avatar" />
             </div>
           </div>
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -73,7 +73,7 @@ const Navbar = () => {
           </div>
           <div className="avatar">
             <div className="ring-primary ring-offset-base-100 rounded-full">
-              <Image src="/image/profile.png" width={40} height={40} alt="avatar" />
+              <Image src="/profile.png" width={40} height={40} alt="avatar" />
             </div>
           </div>
         </div>
